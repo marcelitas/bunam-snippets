@@ -3,6 +3,6 @@
 ___
 Snippets desarrollados para los cursos de formación docente del área de [Bachillerato a Distancia](http://www.bunam.unam.mx/).
 
-## Menu
+## Menú
 ___
-Menu de unidades y temas. Para más detalles ir a la sección [menu](menu/README.md).
+Menú de unidades y temas. Para más detalles ir a la sección [menú](menu/README.md).

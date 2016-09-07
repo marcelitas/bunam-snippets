@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Snippets</title>
+	<title>Menú - Snippets</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://bootswatch.com/superhero/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 	<div class="container">
 		<header>
-			<h1>Snippets</h1>
+			<h1>Menú</h1>
 		</header>
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="navbar-header">
@@ -19,22 +20,30 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Snippets</a>
+				<a class="navbar-brand" href="index.html">Inicio</a>
 			</div>
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="menu/index.html">Menú</a></li>
+					<li><a data-unit="unidad-1" href="unidad-1/index.html">Unidad 1</a></li>
+					<li><a data-unit="unidad-2" href="unidad-2/index.html">Unidad 2</a></li>
+					<li><a data-unit="unidad-3" href="unidad-3/index.html">Unidad 3</a></li>
+					<li><a data-unit="unidad-4" href="unidad-4/index.html">Unidad 4</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#" id="deleteStorage">Borrar LocalStorage</a></li>
 				</ul>
 			</div>
+			<div id="submenu" data-unit=""></div>
 		</nav>
 		<section class="row">
 			<div class="col-xs-12">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, maiores, quod eveniet provident architecto amet labore in ipsum quos eligendi voluptatibus similique fugit molestias, quia expedita mollitia, corporis natus! Corporis.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quia, ducimus veniam nobis numquam harum illum. Natus quasi officiis alias, maxime id sit obcaecati libero repellat doloribus, cum animi aliquid.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ullam quibusdam modi ad explicabo, aliquid quaerat adipisci soluta dolor. Quis facere necessitatibus repudiandae quisquam expedita nisi temporibus modi id minus!</p>
 			</div>
 		</section>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+	<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
