@@ -1,10 +1,8 @@
 ![B@UNAM](../images/b-unam.png "B@UNAM") 
 # Menú
-___
 Menú de unidades y temas.
 
 ## HTML
-___
 La lista se define de la siguiente forma.
 ```
 <ul>
@@ -27,11 +25,9 @@ El archivo [unidad-1/index.html](#) se estructura tan sólo como se muestra a co
 ```
 
 ## CSS
-___
 Se incluye un archivo con los estilos esenciales para el correcto funcionamiento del menú, sólo es necesario reemplazar los valores `background-color` y `border-color` por los particulares de cada diseño.
 
 ## JavaScript
-___
 Para que el menú funcione correctamente es necesario incluir en el archivo donde se utilizará el menú, el archivo fuente del _Framework_ [jQuery](https://code.jquery.com/jquery-3.1.0.min.js), hasta este momento la versión __3.1__.
 ```
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
