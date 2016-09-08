@@ -10,3 +10,6 @@ Efecto __FlipCard__ destinado a la pantalla principal o de presentación de los 
 
 ## Menú herramientas
 Menu lateral que desplaza el contenedor para mostrarse al lado derecho de la pantalla. Para más detalles ir a la sección [herramientas](herramientas/).
+
+## Menú Color
+Menú que cambia de color de acuerdo con el elemento al que se le hizo clic. Para más detalles ir a la sección [menu-color](menu-color/).
