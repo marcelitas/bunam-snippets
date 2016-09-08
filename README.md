@@ -1,12 +1,12 @@
 ![alt text](images/b-unam.png "B@UNAM") 
 # Snippets 
-___
 Snippets desarrollados para los cursos de formación docente del área de [Bachillerato a Distancia](http://www.bunam.unam.mx/).
 
 ## Menú
-___
-Menú de unidades y temas. Para más detalles ir a la sección [menú](menu/README.md).
+Menú de unidades y temas. Para más detalles ir a la sección [menú](menu/).
 
 ## FlipCard
-___
-Efecto __FlipCard__ destinado a la pantalla principal o de presentación de los cursos. Para más detalles ir a la sección [flipcard](flipcard/README.md).
+Efecto __FlipCard__ destinado a la pantalla principal o de presentación de los cursos. Para más detalles ir a la sección [flipcard](flipcard/).
+
+## Menú herramientas
+Menu lateral que desplaza el contenedor para mostrarse al lado derecho de la pantalla. Para más detalles ir a la sección [herramientas](herramientas/).
