@@ -21,6 +21,7 @@ body{
 }
 #tools{
 	position: absolute;
+	z-index: 999;
 }
 .open-sidebar {
 	right: 205px !important;
