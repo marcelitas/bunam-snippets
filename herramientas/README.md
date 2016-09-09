@@ -22,13 +22,14 @@ Para construir el menú de herramientas se requiere la siguiente estructura.
 	</ul>
 </div>
 ```
-El __#sidebar__ tiene que colocarse dentro del _contenedor_ principal como primer elemento.
+El elemento __#tools__ así como el __#sidebar__ son los primeros elementos dentro del __body__.
 ```
 <body>
-	<div class="container">
-		<div id="sidebar">
-		...
-		</div>
+	<a href="#" id="tools">
+		<img src="images/tools.png" alt="Tools">
+	</a>
+	<div id="sidebar">
+		## Your items are here
 	</div>
 	...
 </body>
