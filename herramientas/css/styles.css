@@ -3,11 +3,16 @@ body, html {
     margin: 0;
     overflow:hidden;
 }
+body{
+	position: relative;
+	-webkit-transition:  right 0.4s ease-in-out;
+    -moz-transition:  right 0.4s ease-in-out;
+    -ms-transition:  right 0.4s ease-in-out;
+    -o-transition:  right 0.4s ease-in-out;
+    transition:  right 0.4s ease-in-out;
+}
 .container {
     position: relative;
-    height: 100%;
-    width: 100%;
-    right: 0;
     -webkit-transition:  right 0.4s ease-in-out;
     -moz-transition:  right 0.4s ease-in-out;
     -ms-transition:  right 0.4s ease-in-out;
@@ -17,14 +22,19 @@ body, html {
 #tools{
 	position: absolute;
 }
-.container.open-sidebar {
-    right: 200px;
+.open-sidebar {
+	right: 205px !important;
+}
+.show-sidebar{
+	right: 0 !important;
 }
 #sidebar{
     position: absolute;
-    right: -200px;
+    top: 0;
+	right: -200px;
     width: 200px;
-    height: 100%;
+	min-height: 500x;
+	height: 100%;
     box-sizing: border-box;
 }
 #sidebar ul {
