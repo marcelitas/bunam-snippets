@@ -13,3 +13,6 @@ Menu lateral que desplaza el contenedor para mostrarse al lado derecho de la pan
 
 ## Menú Color
 Menú que cambia de color de acuerdo con el elemento al que se le hizo clic. Para más detalles ir a la sección [menu-color](menu-color/).
+
+## Página Actual
+Cambio de páginas vía [Ajax](https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started) y permite conservar a través de [LocalStorage](http://diveinto.html5doctor.com/storage.html) la última página consultada. Para más detalles ir a la sección [página actual](p-actual/).
