@@ -16,3 +16,6 @@ Menú que cambia de color de acuerdo con el elemento al que se le hizo clic. Par
 
 ## Página Actual
 Cambio de páginas vía [Ajax](https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started) y permite conservar a través de [LocalStorage](http://diveinto.html5doctor.com/storage.html) la última página consultada. Para más detalles ir a la sección [página actual](p-actual/).
+
+## Paginación
+Cambio de contenidos a través de una transición lateral para visualizar el contenido anterior o siguiente de cada sección. Para más detalles ir a la sección [paginación](pagination/).
