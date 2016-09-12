@@ -19,3 +19,6 @@ Cambio de páginas vía [Ajax](https://developer.mozilla.org/en-US/docs/AJAX/Get
 
 ## Paginación
 Cambio de contenidos a través de una transición lateral para visualizar el contenido anterior o siguiente de cada sección. Para más detalles ir a la sección [paginación](pagination/).
+
+## Vídeo Modal
+Ajustes del __Modal__ de [Bootstrap](http://getbootstrap.com/javascript/#modals) para la integración de vídeos de _youtube_ y la funcionalidad _responsive_ para la implementación de los elemenetos `iframe`. Para más detalles ir a la sección [video](video/).
