@@ -22,3 +22,10 @@ Cambio de contenidos a través de una transición lateral para visualizar el con
 
 ## Vídeo Modal
 Ajustes del __Modal__ de [Bootstrap](http://getbootstrap.com/javascript/#modals) para la integración de vídeos de _youtube_ y la funcionalidad _responsive_ para la implementación de los elemenetos `iframe`. Para más detalles ir a la sección [video](video/).
+
+## Scroll
+Funcionalidad de __scroll__ cuando el contenido sobrepasa el tamaño máximo de la ventana. Se presentan dos propuestas:
+* Botón para regresar al principio de la página.
+* Menú fijo en la parte superior de la ventana.
+
+Para más detalles ir a la sección [scroll](scroll/).
